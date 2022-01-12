@@ -1,0 +1,27 @@
+
+:root {
+    --primary: #141416;
+    --secondary: #282838;
+    --accent: #44d8eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+canvas {
+    /* width: 720px;
+    height: 720px; */
+
+    width: 100vmin;
+    height: 100vmin;
+}
