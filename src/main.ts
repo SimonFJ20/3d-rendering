@@ -1,7 +1,10 @@
 
+
 const main = () => {
     const canvas = document.getElementById('canvas') as HTMLCanvasElement;
-    canvas.style.backgroundColor = '#f00'
+    const graphics = canvas.getContext('2d')!;
+    graphics.fillStyle = '#f00';
+    graphics.fillRect(0, 0, canvas.width, canvas.height);
 }
 
 main();
